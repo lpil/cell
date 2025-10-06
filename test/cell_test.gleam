@@ -27,6 +27,7 @@ pub fn readme_test() {
   // Other cells can be made with differing types
   let cell2: Cell(String) = cell.new(table)
   assert cell.write(cell2, "Hello!") == Ok(Nil)
+  assert cell.read(cell2) == Ok("Hello!")
 
   // The whole table of cells can be dropped
   cell.drop(table)
