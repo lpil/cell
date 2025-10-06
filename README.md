@@ -46,4 +46,4 @@ pub fn main() -> Nil {
 }
 ```
 
-Further documentation can be found at <https://hexdocs.pm/mala>.
+Further documentation can be found at <https://hexdocs.pm/cell>.
